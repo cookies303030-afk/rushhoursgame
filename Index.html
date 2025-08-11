@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>🚗 Rush Hour 小遊戲</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🚗 Rush Hour 停車場</h1>
+
+  <div class="controls">
+    <select id="level-select">
+      <option value="0">關卡 1</option>
+      <option value="1">關卡 2</option>
+    </select>
+    <button id="reset-btn">重置</button>
+    <button id="hint-btn">提示</button>
+    <button id="editor-btn">切換編輯器</button>
+  </div>
+
+  <div id="move-counter">步數：0</div>
+  <div id="game-board"></div>
+
+  <div id="editor-panel" style="display:none;">
+    <button id="add-vehicle">新增車輛</button>
+    <button id="save-level">儲存關卡</button>
+  </div>
+
+  <audio id="win-sound" src="win.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

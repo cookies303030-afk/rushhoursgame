@@ -1,0 +1,11 @@
+[
+  [
+    { "id": "A", "x": 0, "y": 0, "length": 2, "dir": "horizontal", "color": "#4caf50" },
+    { "id": "X", "x": 0, "y": 2, "length": 2, "dir": "horizontal", "color": "#2196f3", "main": true }
+  ],
+  [
+    { "id": "B", "x": 2, "y": 1, "length": 3, "dir": "vertical", "color": "#f44336" },
+    { "id": "C", "x": 1, "y": 4, "length": 2, "dir": "horizontal", "color": "#ff9800" },
+    { "id": "X", "x": 0, "y": 2, "length": 2, "dir": "horizontal", "color": "#2196f3", "main": true }
+  ]
+]
