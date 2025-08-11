@@ -1,6 +1,19 @@
-git clone https://github.com/你的帳號/rush-hour-game.git
-cd rush-hour-game
-# 將你的檔案複製進來
-git add .
-git commit -m "Initial commit"
-git push origin main
+# 🚗 Rush Hour 小遊戲
+
+這是一個用 HTML、CSS 和 JavaScript 製作的《Rush Hour》風格益智遊戲。玩家需要移動車輛，讓藍色主車輛順利駛出停車場！
+
+🎮 [立即遊玩](https://你的帳號.github.io/rush-hour-game/) ← 部署後請替換成你的網址
+
+---
+
+## 📦 功能特色
+
+- 拖曳車輛移動
+- 多個關卡選擇
+- 步數計算與提示功能
+- 通關音效 🎉
+- 關卡編輯器（可自訂車輛與儲存關卡）
+
+---
+
+## 📁 專案結構
